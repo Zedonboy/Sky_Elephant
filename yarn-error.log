@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\xampp\php;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\Declan\AppData\Roaming\npm\phantomjs-2.1.1-windows\phantomjs-2.1.1-windows\bin;C:\Dev Tools\gradle-4.6-bin\gradle-4.6\bin;C:\Program Files\Java\kotlinc\bin;C:\Qt2\Qt5.9.1\Tools\mingw530_32\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Go\bin;;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\Declan\Anaconda3;C:\Users\Declan\Anaconda3\Library\mingw-w64\bin;C:\Users\Declan\Anaconda3\Library\usr\bin;C:\Users\Declan\Anaconda3\Library\bin;C:\Users\Declan\Anaconda3\Scripts;C:\Users\Declan\.cargo\bin;C:\Users\Declan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs;C:\Program Files\Java\jre1.8.0_102\bin;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\erl9.0\bin;C:\xampp\php;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\CMake\bin;C:\Users\Declan\AppData\Local\Android\sdk\platform-tools;C:\Dev force\Git Repo\flutter\bin;C:\Dev Tools\kotlinc\bin;C:\Qt2\Qt5.9.1\Tools\mingw530_32\bin;C:\Program Files\LLVM\bin;C:\Users\Declan\AppData\Local\Yarn\bin;C:\Users\Declan\AppData\Roaming\npm;C:\Users\Declan\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  10.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.26.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1163:14)
+
+npm manifest: 
+  {
+    "name": "Sky_ELephant",
+    "version": "1.0.0",
+    "description": "A minimalist video game",
+    "main": "app.js",
+    "repository": "https://github.com/Zedonboy/Sky_Elephant",
+    "author": "Declan Nnadozie",
+    "scripts": {
+      "watch": "webpack --watch",
+      "dev": "webpack-dev-server --inline --progress --open --config build/webpack.dev.conf.js"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "babel-loader": "^7.1.1",
+      "uglifyjs-webpack-plugin": "^1.1.1",
+      "mocha": "^3.2.0",
+      "webpack": "latest",
+      "webpack-bundle-analyzer": "^2.9.0",
+      "webpack-dev-server": "^2.9.1",
+      "webpack-merge": "^4.1.0",
+      "zip-webpack-plugin": "latest",
+      "nightwatch": "^0.9.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,24 @@
+{
+  "name": "Sky_ELephant",
+  "version": "1.0.0",
+  "description": "A minimalist video game",
+  "main": "app.js",
+  "repository": "https://github.com/Zedonboy/Sky_Elephant",
+  "author": "Declan Nnadozie",
+  "scripts": {
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --inline --progress --open --config build/webpack.dev.conf.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "uglifyjs-webpack-plugin": "^1.1.1",
+    "mocha": "^3.2.0",
+    "webpack": "latest",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0",
+    "zip-webpack-plugin": "latest",
+    "nightwatch": "^0.9.12"
+  }
+}
