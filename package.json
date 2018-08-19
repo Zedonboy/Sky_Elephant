@@ -7,7 +7,9 @@
   "author": "Declan Nnadozie",
   "scripts": {
     "watch": "webpack --watch",
-    "dev": "webpack-dev-server --inline --progress --open --config build/webpack.dev.conf.js"
+    "dev": "webpack-dev-server --inline --progress --open --config build/webpack.dev.conf.js",
+    "e2e": "node_modules/.bin/nightwatch --config tests/nightwatch.conf.js",
+    "build" : "node build/build.js"
   },
   "license": "MIT",
   "devDependencies": {

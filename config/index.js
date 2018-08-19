@@ -1,7 +1,8 @@
-module.export = {
+dmodule.export = {
     dev : {
         port : 3000,
         host : 'localhost',
-        autoOpen : true
+        autoOpen : true,
+        activateHotReloading : true
     }
 }

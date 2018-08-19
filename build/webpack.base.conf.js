@@ -1,6 +1,7 @@
 const path = require("path")
 module.exports = {
     entry : "../app.js",
+    target : "web",
     output : {
         filename : "app[name].js",
         path : "../dist"
