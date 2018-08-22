@@ -7,20 +7,24 @@
   "author": "Declan Nnadozie",
   "scripts": {
     "watch": "webpack --watch",
-    "dev": "webpack-dev-server --inline --progress --open --config build/webpack.dev.conf.js",
     "e2e": "node_modules/.bin/nightwatch --config tests/nightwatch.conf.js",
-    "build" : "node build/build.js"
+    "build": "webpack --watch --progress",
+    "dev": "webpack-dev-server --watch-poll --progress --colors"
   },
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.1",
-    "uglifyjs-webpack-plugin": "^1.1.1",
     "mocha": "^3.2.0",
+    "nightwatch": "^0.9.12",
+    "uglifyjs-webpack-plugin": "latest",
     "webpack": "latest",
-    "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0",
-    "zip-webpack-plugin": "latest",
-    "nightwatch": "^0.9.12"
+    "webpack-bundle-analyzer": "latest",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "latest",
+    "zip-webpack-plugin": "latest"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.1.5"
   }
 }

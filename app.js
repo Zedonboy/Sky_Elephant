@@ -1,5 +1,3 @@
-import "./kontra"
-import kontra from "./kontra";
-
+import "./kontra.js"
 kontra.init("sky_elephant_window")
 kontra.sprite()
